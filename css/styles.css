@@ -2,8 +2,68 @@
    width: 200px;
    height: auto;
 }
+.header{
 height: 40px;
+background-color: #56CCF2;
+text-transform: uppercase;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:300 ;
+}
+
+.pageTitle{
    float: left;
+   padding: 10px 20px;
+}
+.navigation{
+   display: flex;
+   /* padding: 10px 20px; */
+   justify-content: flex-end;
+}
+.navitem{
+   padding: 10px 20px;
+   /* justify-content: flex-end; */
+}
+.title{
+   font-family:Arial, Helvetica, sans-serif;
+   margin: 24px; 
+}
+
+.recipeContainer{
+   margin: 24px; 
+   /* display: inline-block; */
+}  
+
+.recipeBox{
+   justify-content: flex-start;
+   display: flex;
+   display: inline-block;
+}
+
+.recipe{
+   border: 1px solid lightgrey;
+   display: flex;
+   align-content:center;
+   margin: 0 15px 15px 0;
+
+}
+
+.recipeContent{
+   margin: 24px;
+   font-family:Arial, Helvetica, sans-serif;
+   max-width: 300px;
+}
+button{
+
+   background-color: #F2C94C;
+   width: 100%;
+   font-size: 14px;
+   text-transform: uppercase;
+   border-radius: 8px;
+   border:0;
+   height: 30px;
+   margin-top: 24px;
+}
+
 a{
    color: black;
    text-decoration: none;
